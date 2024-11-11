@@ -1,12 +1,21 @@
 /* Estilizando a página */
 
-div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: #333333;
+    text-align: center;
+}
+
+.logo, .main {
+    width: 620px;
+    align-items: center;
+    margin: 20px auto;
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 20px;
+    color: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {

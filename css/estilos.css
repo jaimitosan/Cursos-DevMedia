@@ -12,10 +12,6 @@ body {
     text-align: center;
 }
 
-.proj1, .proj2, .proj3, .proj4 {
-    color: yellow;
-}
-
 a {
     text-decoration: none;
 }
@@ -26,8 +22,7 @@ a:hover {
 }
 
 a:visited {
-    color: forestgreen;
-    text-decoration-color: hotpink;
+    color:hotpink;
 }
 
 h1 {

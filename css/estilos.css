@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-.logo, .main {
+.logo, .main, .proj1, .proj1, .proj3 {
     width: 620px;
     align-items: center;
     margin: 20px auto;
@@ -17,6 +17,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color:black;
 }
 
 h1 {

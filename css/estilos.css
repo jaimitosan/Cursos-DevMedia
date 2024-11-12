@@ -26,7 +26,8 @@ a:hover {
 }
 
 a:visited {
-    color:antiquewhite;
+    color: forestgreen;
+    text-decoration-color: hotpink;
 }
 
 h1 {

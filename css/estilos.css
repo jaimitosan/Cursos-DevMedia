@@ -9,6 +9,7 @@ body {
     width: 620px;
     align-items: center;
     margin: 20px auto;
+    text-align: center;
 }
 
 .proj1, .proj2, .proj3, .proj4 {
@@ -22,6 +23,10 @@ a {
 a:hover {
     background-color: white;
     color:black;
+}
+
+a:visited {
+    color:antiquewhite;
 }
 
 h1 {

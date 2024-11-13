@@ -10,17 +10,28 @@ img {
     width: 60%
 }
 
-.logo, .main {
-        width: 90%;
-        margin: 5% auto;
+.logo {
+        width: 40%;
+        margin: 2% auto;
         text-align: center;
-        border-radius: 30px 8px;
-        padding: 1%;
 }
 
-.proj1, .proj2, .proj3, .proj4 {
+.main {
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.contato {
+    align-content: center;
+    margin: 5% auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.proj1, .proj2, .proj3, .proj4, .proj5 {
     width: 90%;
-    margin: 7% auto;
+    margin: 2% auto;
     text-align: center;
     border-radius:60px;
     background-color: rgb(62, 90, 138);
@@ -38,7 +49,7 @@ img {
 
 a {
     text-decoration: none;
-    color:cyan
+    color: yellow
 }
 
 a:hover {
@@ -51,14 +62,16 @@ a:visited {
 }
 
 h1 {
-    font-size:8dvw;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
 
 h2 {
-    font-size: 5dvw;
-    color: #88100f;
-    font-weight: normal;
+    font-size: 20px;
     text-align: center;
+}
+
+span {
+    font-weight: bold;
 }

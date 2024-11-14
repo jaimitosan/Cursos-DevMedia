@@ -19,6 +19,7 @@ body {
     text-align: center;
     border-radius: 25px;
     margin: 1 auto;
+    border: 0 auto;
 }
 
 span {

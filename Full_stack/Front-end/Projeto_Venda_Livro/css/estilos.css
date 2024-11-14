@@ -8,6 +8,7 @@ body {
 .info, .sinopse, .autor, .marketing {
     padding: 50px;
     text-align: center;
+    align-content: center;
     border-top: 1px solid #d5d5d5;
 }
 

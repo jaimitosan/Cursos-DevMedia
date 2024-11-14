@@ -20,6 +20,8 @@ body {
     border-radius: 25px;
     margin: 1 auto;
     border: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 span {

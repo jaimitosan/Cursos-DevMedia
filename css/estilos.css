@@ -1,5 +1,12 @@
 /* Estilizando a página */
 
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: #333333;
     text-align: center;
@@ -22,7 +29,7 @@ img {
     text-align: center;
 }
 
-.proj1, .proj2, .proj3, .proj4, .proj5 {
+.proj1, .proj2, .proj3, .proj4, .proj5, .proj6 {
     width: 90%;
     margin: 2% auto;
     text-align: center;

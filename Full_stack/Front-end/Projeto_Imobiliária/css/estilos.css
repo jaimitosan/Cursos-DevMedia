@@ -15,17 +15,20 @@ body {
 
 div {
     width: 1024px;
-    margin: 10px auto;
+    margin: 30px auto;
+    padding: 30px;
 }
+
 
 /*Estilos por CLASSES */
 
 .logo {
     background-color: aqua;
+    text-align: center;
 }
 
 .banner {
-
+    
 
 }
 
@@ -35,8 +38,7 @@ div {
 }
 
 .servicos {
-
-
+    text-align: center;
 }
 
 .corretores {

@@ -28,12 +28,18 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
+<<<<<<< HEAD
      inkscape:zoom="0.5"
      inkscape:cx="1192"
      inkscape:cy="522"
+=======
+     inkscape:zoom="0.70710678"
+     inkscape:cx="24.041631"
+     inkscape:cy="511.94531"
+>>>>>>> 8e4d9c4216d49af3cd5525ab6cb45061c1d04bc9
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
@@ -379,10 +385,17 @@
        d="M 58.72917,137.84791 77.883149,118.69393 H 96.639051 L 77.485078,137.84791 Z"
        id="path1164"
        inkscape:label="Verde 1" /><path
+<<<<<<< HEAD
        style="fill:#f9c80e;fill-opacity:1;stroke:none;stroke-width:0.799999"
        d="m 118.00417,144.50032 c 0,0 6.65241,-6.65241 6.65241,-6.65241 0,0 18.75591,0 18.75591,0 l -25.40832,25.40832 z"
        id="path1372" /><path
        style="fill:#dc8e0b;fill-opacity:1;stroke:none;stroke-width:0.799999"
+=======
+       style="fill:#f86624;fill-opacity:1;stroke:none;stroke-width:0.799999"
+       d="m 118.00417,144.50032 c 0,0 6.65241,-6.65241 6.65241,-6.65241 0,0 18.75591,0 18.75591,0 l -25.40832,25.40832 z"
+       id="path1372" /><path
+       style="fill:#f9c80e;fill-opacity:1;stroke:none;stroke-width:0.799999"
+>>>>>>> 8e4d9c4216d49af3cd5525ab6cb45061c1d04bc9
        d="m 143.41249,137.84791 -25.40832,-25.40832 v 18.75591 l 6.65241,6.65241 z"
        id="path1417" /><path
        style="fill:#ffffff;stroke:none;stroke-width:0.799999"
@@ -521,24 +534,37 @@
        style="font-size:74.6667px;font-family:'Swis721 Blk BT';-inkscape-font-specification:'Swis721 Blk BT, Normal';white-space:pre;shape-inside:url(#rect5141);display:inline;fill:#0066ff;stroke-width:7.55906"><tspan
          x="110.35938"
          y="917.29675"
+<<<<<<< HEAD
          id="tspan2797"><tspan
            style="fill:#ffffff"
            id="tspan2795">SOUZA LIMA</tspan></tspan></text><text
+=======
+         id="tspan29390"><tspan
+           style="fill:#ffffff"
+           id="tspan29388">SOUZA LIMA</tspan></tspan></text><text
+>>>>>>> 8e4d9c4216d49af3cd5525ab6cb45061c1d04bc9
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,29.553347,-57.943745)"
        id="text5299"
        style="font-size:26.6667px;font-family:'Swis721 Blk BT';-inkscape-font-specification:'Swis721 Blk BT, Normal';white-space:pre;shape-inside:url(#rect5301);display:inline;fill:#ffffff;stroke-width:7.55906"><tspan
          x="121"
          y="1015.2634"
+<<<<<<< HEAD
          id="tspan2801"><tspan
            style="fill:#666666"
            id="tspan2799">FULL STACK DEVELOPER</tspan></tspan></text><path
+=======
+         id="tspan29394"><tspan
+           style="fill:#666666"
+           id="tspan29392">FULL STACK DEVELOPER</tspan></tspan></text><path
+>>>>>>> 8e4d9c4216d49af3cd5525ab6cb45061c1d04bc9
        style="fill:#508aa8;fill-opacity:1;stroke:none;stroke-width:1"
        d="m 86.348619,146.71145 14.722211,14.72221 v 18.75591 L 86.348619,165.46736 Z"
        id="path798" /><path
        style="fill:#9dd1f1;fill-opacity:1;stroke:none;stroke-width:1"
        d="m 115.79304,146.71145 0,18.75591 -14.72221,14.72221 v -18.75591 z"
        id="path854"
+<<<<<<< HEAD
        sodipodi:nodetypes="ccccc" /><rect
        style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.684903;stroke-dasharray:none"
        id="rect2413-8"
@@ -619,4 +645,6 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
        d="m 503.69501,130.84058 v 18.75591 L 488.9728,164.3187 v -18.75591 z"
        id="path854-3"
+=======
+>>>>>>> 8e4d9c4216d49af3cd5525ab6cb45061c1d04bc9
        sodipodi:nodetypes="ccccc" /></g></svg>

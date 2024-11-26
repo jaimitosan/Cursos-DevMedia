@@ -14,11 +14,11 @@ body {
 }
 
 img {
-    width: 80%
+    width: 40%
 }
 
 .logo {
-        width: 40%;
+        width: 700px;
         margin: 2% auto;
         text-align: center;
 }

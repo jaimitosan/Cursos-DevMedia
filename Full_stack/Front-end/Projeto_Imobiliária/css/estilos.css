@@ -17,28 +17,57 @@ div {
     width: 1024px;
     margin: 30px auto;
     padding: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 980px;
+    text-align: justify;
+    margin: 0 auto;
 }
 
 
 /*Estilos por CLASSES */
 
 .logo {
-    background-color: aqua;
+    background-color:#afddfb;
     text-align: center;
 }
 
-.banner {
-    
+.logo img {
+    width: 150px;
+}
 
+.logo .links {
+    margin: 10px auto;
+    font-size: 18px;
+    color: #1d1d1d;
+    text-align: center;
+}
+
+.logo a {
+    margin: 10px;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+}
+
+.banner, .apresentacao, .servicos, .corretores, .contato {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .apresentacao {
 
+}
 
+.apresentacao img {
+    width: 1024px;
 }
 
 .servicos {
-    text-align: center;
+
 }
 
 .corretores {

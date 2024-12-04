@@ -29,7 +29,13 @@ img {
     text-align: center;
 }
 
-.proj1, .proj2, .proj3, .proj4, .proj5, .proj6 {
+.proj1, 
+.proj2, 
+.proj3, 
+.proj4, 
+.proj5, 
+.proj6,
+.proj7 {
     width: 90%;
     margin: 2% auto;
     text-align: center;

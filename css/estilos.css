@@ -1,31 +1,80 @@
-/* Estilizando a página */
 
-/* Reset de estilos */
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+
+
+/* STYLE RESET */
 * {
+    /* BOX MODEL (FROM OUTSIDE IN) */
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* TYPOGRAPHY */
+   font-family: Tahoma;
 }
 
 body {
-    background-color:white
-    text-align: center;
+    /* BACKGROUND */
+    background-color:white;
+    
+    /* TYPOGRAPHY */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 img {
+    /* BOX MODEL (FROM OUTSIDE IN) */
     width: 40%
 }
 
 .logo {
-        width: 700px;
-        margin: 2% auto;
-        text-align: center;
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 2% auto;
+    width: 700px;
+    
+    /* TYPOGRAPHY */    
+     text-align: center;
 }
 
 .main {
-    width: 40%;
+    /* BOX MODEL (FROM OUTSIDE IN) */
     margin: 2% auto;
+    width: 40%;
+
+    /* TYPOGRAPHY */
     text-align: center;
 }
 
@@ -36,22 +85,32 @@ img {
 .proj5, 
 .proj6,
 .proj7 {
-    width: 90%;
+    /* BOX MODEL (FROM OUTSIDE IN) */
     margin: 2% auto;
-    text-align: center;
-    border-radius:60px;
-    background-color: rgb(24, 221, 24);
     padding: 5px 20px;
+    border-radius:60px;
+    width: 90%;
+
+    /* BACKGROUND */
+    background-color: rgb(24, 221, 24);
+    
+    /* TYPOGRAPHY */
+    text-align: center; 
 }
 
 .contato {
-    width: 90%;
-    text-align: center;
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 2% auto;    
     border-radius: 30px;
-    background-color: rgb(68, 209, 219);
     padding: 10px;
+    width: 90%;
+
+    /* BACKGROUND */
+    background-color: rgb(68, 209, 219);
+    
+    /* TYPOGRAPHY */
+    text-align: center;
     color: rgb(255, 255, 255);
-    margin: 2% auto;
 }
 
 a {

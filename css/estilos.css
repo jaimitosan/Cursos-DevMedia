@@ -82,7 +82,8 @@ img:hover {
 .proj4, 
 .proj5, 
 .proj6,
-.proj7 {
+.proj7,
+.proj8 {
     /* BOX MODEL (FROM OUTSIDE IN) */
     margin: 2% auto;
     padding: 5px 20px;

@@ -39,3 +39,148 @@
 /* ================================================== */
 /*                        GERAL                       */
 /* ================================================== */
+
+body {
+/* TYPOGRAPHY */
+    font-family: sans-serif;
+}
+
+.secao {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao span {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 30px;
+}
+
+.secao a {
+
+/* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin: 0 6px;
+
+/* BACKGROUND */
+    background-color: white;
+
+/* TYPOGRAPHY */
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #4710c1;
+    text-decoration: none;
+}
+
+.secao h2 {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 30px 0;
+
+/* TYPOGRAPHY */
+    text-align: center;
+}
+
+.secao p {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    margin: 12px 0;
+    
+/* TYPOGRAPHY */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.secao img {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+}
+
+
+/* ================================================== */
+/*                     SEÇÃO TÍTULO                   */
+/* ================================================== */
+
+.box-titulo {
+
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    padding: 20px 0;
+
+    /* BACKGROUND */
+    background-color: #4710c1;
+
+    /* TYPOGRAPHY */
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+/* ================================================== */
+/*                     SEÇÃO CAPA                     */
+/* ================================================== */
+
+
+
+/* ================================================== */
+/*                     SEÇÃO SINOPSE                  */
+/* ================================================== */
+/* BOX MODEL (FROM OUTSIDE IN) */
+
+
+/* BACKGROUND */
+
+
+/* TYPOGRAPHY */
+
+
+/* ================================================== */
+/*                 SEÇÃO DISPONIBILIDADE              */
+/* ================================================== */
+
+.carrossel {
+/* POSITION AND LAYOUT */
+    display: flex;
+    
+/* BOX MODEL (FROM OUTSIDE IN) */
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+
+.carrossel img {
+/* BOX MODEL (FROM OUTSIDE IN) */
+    box-shadow: 10px 10px 10px #939393;
+
+/* POSITION AND LAYOUT */
+    width: 315px;
+    margin: 10px;
+    }
+
+ /* ================================================== */
+/*                     SEÇÃO RODAPÉ                   */
+/* ================================================== */
+.assista {
+
+/* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 5px 0;
+    width: 100%;
+
+/* TYPOGRAPHY */
+    text-align: left;
+}
+
+.copyright {
+/* BOX MODEL (FROM OUTSIDE IN) */
+   padding: 5px;
+   width: 100%;
+
+/* BACKGROUND */
+  background-color: #4710c1;
+
+/* TYPOGRAPHY */
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

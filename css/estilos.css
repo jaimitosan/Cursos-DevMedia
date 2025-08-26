@@ -84,7 +84,8 @@ img:hover {
 .proj6,
 .proj7,
 .proj8,
-.proj9 {
+.proj9,
+.proj10 {
     /* BOX MODEL (FROM OUTSIDE IN) */
     margin: 2% auto;
     padding: 5px 20px;
@@ -120,6 +121,10 @@ a {
 }
 
 a:hover {
+    /* BOX */
+    padding: 10px;
+    border-radius: 25px;
+    
     /* BACKGROUND */
     background-color: white;
     
@@ -127,10 +132,7 @@ a:hover {
     color:black;
 }
 
-a:visited {
-    /* BOX */
-    padding: 10px;
-    
+a:visited {    
     /* TYPOGRAPHY */
     color:rgb(0, 0, 0);
     border-radius: 30px;

@@ -1,0 +1,148 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* ================================================== */
+/*                        GERAL                       */
+/* ================================================== */
+body {
+    /* TYPOGRAPHY */
+    font-family: "Fredoka";
+}
+
+h1, h2, h3 {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0;
+}
+
+.secao-largura-limitada {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* ================================================== */
+/*                   SECAO TOPO - 1                   */
+/* ================================================== */
+.secao-topo {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-topo p {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 20px;
+    
+    /* TYPOGRAPHY */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ================================================== */
+/*                   SECAO CAPA - 2                   */
+/* ================================================== */
+.secao-background-capa {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    min-height: 500px;
+
+    /* BACKGROUND */
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+}
+
+/* ================================================== */
+/*                 SECAO CONTEUDO - 3                 */
+/* ================================================== */
+
+.secao-conteudo {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 50px 20px;
+}
+
+.secao-conteudo span {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    border-left: 1px solid;
+    padding-left: 10px;
+
+    /* TYPOGRAPHY */
+    font-size: 20px;
+}
+
+.secao-background-conteudo {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 50px 20px;
+    
+    /* TYPOGRAPHY */
+    text-align: right;
+}
+
+.img-conteudo {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    width: 250px;
+    height: 180px;
+}
+
+/* ================================================== */
+/*                   SECAO DIVISAO                    */
+/* ================================================== */
+
+.secao-background-divisao {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 50px 0;
+
+    /* BACKGROUND */
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* TYPOGRAPHY */
+    text-align: center;
+}
+
+.secao-background-divisao h3 {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 200px;
+
+    /* BACKGROUND */
+    background-color: white;
+
+    /* TYPOGRAPHY */
+    font-size: 36px;
+}

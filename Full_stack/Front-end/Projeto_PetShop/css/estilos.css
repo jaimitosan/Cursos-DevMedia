@@ -1,0 +1,381 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* ================================================== */
+/*                        GERAL                       */
+/* ================================================== */
+body {
+    /* 8 TYPOGRAPHY */
+    font-family: sans-serif;
+}
+
+a {
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* ================================================== */
+/*               SEÇÃO 1 - CAPA (BANNER)              */
+/* ================================================== */
+h1 {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 40px 0 0;
+    
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.capa {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;  
+    height: 700px;
+    margin: 0 auto;
+
+    /* 7 BACKGROUND */
+    /* background, cursor */
+    background-image: url('../imagens/banner-topo.jpg');
+    background-color: #ff0000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.imagem-logo {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 30px;
+    margin-right: 5px;
+}
+
+.logo {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 300px;
+    padding: 30px;
+        
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+}
+
+.logo img {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 30px;
+    margin-right: 5px;
+}
+
+.empresa {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 30px;
+    
+    /* 8 TYPOGRAPHY */
+    font-size: 35px;
+}
+
+.mote {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0;
+
+    /* 8 TYPOGRAPHY */
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container-titulo {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    border: 0px solid #3c184e;
+    box-shadow:  0 8px 32px #1f26875e;
+    border-radius: 10px;
+    margin: 70px auto 0 auto;
+    padding: 40px;
+    width: 1024px;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffffc4;
+ }
+
+ .titulo {
+    /* 8 TYPOGRAPHY */
+    font-weight: 800;
+    color: #3c184e;
+    text-align: center;
+ }
+
+.fale {
+    /* 2 POSITION AND LAYOUT */
+    align-items: center;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 10px 25px;
+
+    /* 7 BACKGROUND */
+    background-color: #3c184e;
+
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logowhatsapp {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 20px;
+}
+
+
+/* ================================================== */
+/*                 SEÇÃO 2 - SERVIÇOS                 */
+/* ================================================== */
+h2 {
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+    font-size: 40px;
+}
+
+.servicos {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffff;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    text-align: center;
+}
+
+.negrito {
+    /* 8 TYPOGRAPHY */
+    font-weight: 700;
+    font-style: italic;
+}
+
+.servicos p {
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+    line-height:2;
+}
+
+.imgservicos{
+        
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    padding: 2px;
+    
+    border-radius: 5px;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffff;
+
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+}   
+
+.imgservicos img {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    box-shadow: 2px 6px 10px 6px #0000005c;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.desc-servicos {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    width: 800px;
+
+    /* 8 TYPOGRAPHY */
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ================================================== */
+/*          SEÇÃO 3 E 5 - REDES SOCIAIS COMUM         */
+/* ================================================== */
+.redes1, .redes2 {
+    /* 2 POSITION AND LAYOUT */
+    align-items: center;
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    padding: 80px 80px;
+    margin: 50px auto;
+
+
+    /* 7 BACKGROUND */
+    background-color: #3c184e;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    text-align: center;
+}
+
+.redes1 p, .redes2 p {
+    /* 8 TYPOGRAPHY */
+    color: white;
+    font-size: 40px;
+}
+
+.redes1 img, .redes2 img {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.texto-redes1, .texto-redes2 {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 800px;
+    margin: 0 auto;
+
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+}
+
+
+
+/* ================================================== */
+/*                   SEÇÃO 4 - MARCAS                 */
+/* ================================================== */
+.marcas {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px 80px;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffff;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    text-align: center;
+}
+
+.marcas h3 {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin:0 0 45px 0;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    font-size: 36px;
+}
+
+.marcas-1, .marcas-2, .marcas-3 {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    width: 800px;
+}
+
+.marcas img {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffff;
+
+    /* 8 TYPOGRAPHY */
+    text-align: center;
+}
+
+/* ================================================== */
+/*                  SEÇÃO 6 - MAPA                    */
+/* ================================================== */
+.mapa {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    padding: 40px 80px;
+
+    /* 7 BACKGROUND */
+    background-color: #ffffff;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    text-align: center;  
+}
+
+.mapa h3 {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 0 45px 0;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    font-size: 36px;
+}
+
+.mapa p {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 0 45px 0;
+
+    /* 8 TYPOGRAPHY */
+    color: #3c184e;
+    font-size: 20px;
+}
+
+.mapa iframe {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 800px;
+    height: 450px;
+}
+
+/* ================================================== */
+/*               SEÇÃO 7 - COPYRIGHT                  */
+/* ================================================== */
+.rodape {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 18px;
+    padding: 10px;
+
+    /* 7 BACKGROUND */
+    background-color: #3c184e;
+
+    /* 8 TYPOGRAPHY */
+    color: white;
+    text-align: center;
+    font-size: 12px;

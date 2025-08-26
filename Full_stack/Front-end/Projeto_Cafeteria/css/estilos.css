@@ -1,0 +1,459 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* ================================================== */
+/*                        GERAL                       */
+/* ================================================== */
+
+/*RESET GERAL*/ 
+* { 
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROLAGEM SUAVE */
+html {
+    /* 3 DISPLAY AND VISIBILITY */
+    scroll-behavior: smooth;
+}
+
+a {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin-left: 10px;
+    
+    /* 8 TYPOGRAPHY */
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    list-style: none;
+}   
+
+.home-button {
+    /* 2 POSITION AND LAYOUT */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 3;
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    /* 7 BACKGROUND */
+    background-color: #c4a47c;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Fraunces, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-button a {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin-left: 0;
+}
+
+/* ================================================== */
+/*                    SEÇÃO 1 - HEADER                */
+/* ================================================== */
+.header {
+    /* 2 POSITION AND LAYOUT */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    
+
+    /* 7 BACKGROUND */
+    background-color: #604829;
+    background-size: cover;
+}
+
+nav {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    right: 15%;
+    top: calc(100%/2.3);
+
+    /* 8 TYPOGRAPHY */
+    color: #c4a47c;
+    text-shadow: 2px 2px 4px 4px white;
+}
+
+.logo {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100px;
+    margin-left: 15%;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================================================== */
+/*                    SEÇÃO 2 - HERO                  */
+/* ================================================== */
+.hero {
+    /* 2 POSITION AND LAYOUT */
+    position: relative;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax */
+    
+    /* 7 BACKGROUND */
+    background-image: url('../img/parallax-imagem1.png');
+}
+
+.texto-hero {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute; 
+    top: 45%;
+    width: 100%;           /* Faz a div ocupar toda a largura */
+
+    /* 8 TYPOGRAPHY */
+    text-align: center; /* Centraliza o texto */
+    color: #fff;
+    font-family: Fraunces, sans-serif;
+    font-size: 100px;
+}
+
+/* ================================================== */
+/*                 SEÇÃO 3 - INFORMAÇÕES              */
+/* ================================================== */
+.informacoes {
+    /* 7 BACKGROUND */
+    background-color:#fff;
+}
+
+.texto-informacoes h2 {
+    
+     /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin-top: 100px;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+    color: #c4a47c;
+    text-align: center;
+}
+
+.texto-informacoes p {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    /* 8 TYPOGRAPHY */
+    font-family: Lato, sans-serif;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.imagem1{
+    /* 2 POSITION AND LAYOUT */
+    position: relative;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 50vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    /* 7 BACKGROUND */
+    background-image: url('../img/parallax-imagem2.jpg');
+    background-color: #604829;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax */
+}
+
+.texto-imagem1 {
+    
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    top: calc(100%/2);
+    left: 50%;
+    transform: translateX(-50%  );
+    align-items: center;
+    justify-items: center;
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+
+    /* 7 BACKGROUND */
+    background-color: #604829;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Fraunces, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.imagem2{
+    /* 2 POSITION AND LAYOUT */
+    position: relative;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 50vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    /* 7 BACKGROUND */
+    background-image: url('../img/parallax-imagem3.jpg');
+    background-color: #604829;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax */
+}
+
+.texto-imagem2 {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    top: calc(100%/2);
+    left: 50%;
+    transform: translateX(-50%  );
+    align-items: center;
+    justify-items: center;
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+
+    /* 7 BACKGROUND */
+    background-color: #604829;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Fraunces, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ================================================== */
+/*                   SEÇÃO 4 - CONTATO                */
+/* ================================================== */
+.contatos {
+    /* 2 POSITION AND LAYOUT */
+    position: relative;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 100vh;
+    margin-top: 100px;
+    
+    /* 7 BACKGROUND */
+    background-image: url('../img/parallax-imagem4.png');
+    background-color: #604829;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax */ 
+}
+
+.titulo-contato {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    top: 8%;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para o centro exato */
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    /* 7 BACKGROUND */
+    background-color: #604829;
+    
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+iframe {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IzN) */
+    padding: 10px;
+    width: 1024px;
+    height: 450px;
+}
+
+.dados-contato {
+    /* 2 POSITION AND LAYOUT */
+    position: absolute;
+    bottom: 3%;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para o centro exato */
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 550px;
+    height: 70px;
+    padding: 10px;
+    
+    /* 7 BACKGROUND */
+    background-color: #604829;
+    
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+/* ================================================== */
+/*                    SEÇÃO 5 - HORARIOS              */
+/* ================================================== */
+.destaque {
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #c4a47c;
+}
+
+.texto-horario {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    padding: 70px;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.7em;
+}
+
+.tab-horarios {        
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    height: 85vh;
+    
+    /* 7 BACKGROUND */
+    background-image: url('../img/cafeteria.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax */ 
+}
+
+.tabela  {
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 40%;
+    margin: 0 auto;
+    
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 3;
+}
+
+.dia {
+    /* 8 TYPOGRAPHY */
+    text-align: right;
+}
+
+.linha {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 440px;
+    margin: 10px;
+    border-bottom: 2px solid #acacac;
+}
+
+/* ================================================== */
+/*                     SEÇÃO 6 - FOOTER               */
+/* ================================================== */
+footer {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    height: 78px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    /* 7 BACKGROUND */
+    background-color: #000000;
+
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.dev {
+    /* 8 TYPOGRAPHY */
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    color: #c4a47c;
+}
+
+

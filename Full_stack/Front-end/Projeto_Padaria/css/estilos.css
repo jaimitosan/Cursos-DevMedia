@@ -1,0 +1,82 @@
+/* Estilizando a página */
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+/* Estilos gerais - TAGS */
+body {
+    background-color:#f4f0e5
+}
+
+a {
+    margin: auto 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #8a7763;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    color: #dc8f35;
+    margin-bottom: 20px;
+}
+
+h3, h4 {
+    padding-top: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*Estilos específicos - CLASSES e IDs*/
+.secao {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sobre {
+    padding: 10px;
+    border-bottom: 2px solid #c3b093;
+}
+
+.secao p {
+    padding: 10px;
+}
+
+.produtos {
+    background-color: #dc8f35;
+    color: white;
+}
+
+.produtos p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    margin: auto 50px;
+    text-align: justify;
+}
+
+.produtos img {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.imagem-logo {
+    width: 200px;
+}
+
+.imagem-padaria {
+    width: 700px;
+}

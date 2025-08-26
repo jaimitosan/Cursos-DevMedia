@@ -1,0 +1,58 @@
+/* Estilizando a página */
+
+body {
+    background-color: #f1f1f1;
+}
+
+div {
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+img {
+    width: 190px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7a797b;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid #7a797b;
+    border-bottom: 2px solid #7a797b;
+    padding: 10px;
+    font-weight: 100;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.fale a {
+    background-color: rgb(24, 243, 31);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}

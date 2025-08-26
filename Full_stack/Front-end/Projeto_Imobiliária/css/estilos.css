@@ -1,0 +1,263 @@
+
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+
+
+/* STYLE RESET */
+* {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0;
+    padding: 0;
+
+    /* TYPOGRAPHY */
+   font-family: Tahoma;
+}
+
+/*  ------------------ BY TAG  ------------------ */
+
+body {
+    /* TYPOGRAPHY */
+    font-family: Tahoma, sans-serif;
+}
+
+div {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 30px auto;
+    width: 1024px;
+    padding: 30px;
+    
+    /* TYPOGRAPHY */
+    text-align: center;
+}
+
+h3 {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding: 20px;
+    
+    /* TYPOGRAPHY */
+    font-size: 28px;
+    line-height: 42px;
+}
+
+p {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 auto;
+    width: 980px;
+    
+    /* TYPOGRAPHY */
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+span {
+     /* TYPOGRAPHY */
+     font-weight: bold;
+}
+
+
+/* ------------------ BY CLASS ------------------  */
+
+.logo {
+    /* BACKGROUND */
+    background-color:#afddfb;
+
+    /* TYPOGRAPHY */
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.logo .links {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+    /* TYPOGRAPHY */
+    font-size: 18px;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+.logo a {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+    
+    /* TYPOGRAPHY */
+    text-decoration: none;
+}
+
+.banner {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+.destaque-azul {
+    /* TYPOGRAPHY */
+    color: #1d80c1;
+}
+
+.destaque-amarelo {
+   /* TYPOGRAPHY */
+   color:#fff81b; 
+}
+
+
+.apresentacao, 
+.servicos, 
+.corretores, 
+.contato {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.apresentacao {
+    
+}
+
+.apresentacao h1 {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin-bottom: 5px;
+    
+    /* TYPOGRAPHY */
+    color: #1d1d1d;
+}
+
+.apresentacao h2 {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin-bottom: 5px;
+    
+    /* TYPOGRAPHY */
+    font-weight: lighter;
+    color: #1c81c0;
+}
+
+.apresentacao img, 
+.corretores img {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    width: 450px;
+}
+
+.servicos,
+.contato {
+    /* BACKGROUND */
+    background-color: #1c81c0;
+}
+
+.servicos p {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    width: 700px;
+    
+    /* TYPOGRAPHY */
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    color:white;
+}
+
+.servicos h3,
+.contato h3 { 
+    /* TYPOGRAPHY */
+    color:white;
+}
+
+.servicos ul {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 40px auto;
+    width: 135px;
+
+    /* TYPOGRAPHY */
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color:white;
+}
+
+.corretores h3 {
+    /* TYPOGRAPHY */
+    color: #1c81c0;
+}
+.contato p{
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 30px auto;
+    padding: 15px;
+
+    /* BACKGROUND */
+    background-color: #1d1d1d;
+
+    /* TYPOGRAPHY */
+    color: white   
+}
+
+.contato iframe {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    width: 950px;
+    height: 450px;
+}
+
+.contato ul {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 40px auto;
+    width: 210px;
+
+    /* TYPOGRAPHY */
+    list-style: none;
+    line-height: 40px;
+}
+
+.contato a {
+    /* BOX MODEL (FROM OUTSIDE IN) */
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 2px 5px;
+    
+
+    /* BACKGROUND */
+    background-color:white;
+
+    /* TYPOGRAPHY */
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: #1d80c1
+}
+
+/*  ------------------ BY ID ------------------  */

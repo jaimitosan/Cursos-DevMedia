@@ -1,0 +1,123 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* MODELO DE ORGANIZAÇÃO DO CSS */
+
+/* selector { */
+
+/* 0 SASS INHERITANCE*/
+/* @extend, @mixin, e.g. clearfix */
+
+/* 1 GENERATED CONTENT */
+/* content */
+
+/* 2 POSITION AND LAYOUT */
+/* positiony, z-index, top, bottom, left, right, Flexbox properties, float, clear */
+
+/* 3 DISPLAY AND VISIBILITY */
+/* display, opacity, transform */
+
+/* 4 CLIPPING */
+/* overflow, clip  */
+
+/* 5 ANIMATION */
+/* animation, transition */
+
+/* 6 BOX MODEL (FROM OUTSIDE IN) */
+/* margin, box-shadow, border, border-radius, box-sizing, width, height, padding */
+
+/* 7 BACKGROUND */
+/* background, cursor */
+
+/* 8 TYPOGRAPHY */
+/* font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color */
+
+/* 9 PSEUDO-CLASSES & PSEUDO-ELEMENTS (NESTED RULES) */
+/* :hover, :focus, :active, :before, :after, :first-child, :last-child */
+
+/* } */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* ================================================== */
+/*                        GERAL                       */
+/* ================================================== */
+
+* {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    margin: 0;
+    padding: 0;
+
+    /* 8 TYPOGRAPHY */
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.container {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    box-sizing: border-box;
+}
+
+a {
+    /* 8 TYPOGRAPHY */
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* ================================================== */
+/*                     HOME - TOPO                    */
+/* ================================================== */
+.header {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+}
+
+.navbar {
+    /* 2 POSITION AND LAYOUT */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    padding: 20px 0;
+}
+
+
+.links {
+    /* 3 DISPLAY AND VISIBILITY */
+    display: flex; /* coloca os itens em linha */
+    align-items: center; /* alinha verticalmente os itens */
+    gap: 16px; /* espaçamento entre os links */
+
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: auto; /* permite que o conteúdo defina a largura */
+}
+
+.links ul {
+    /* o <ul> é o elemento que contém os <li>, então aplicamos flex nele */
+    display: flex;
+    gap: 16px; /* espaçamento entre os itens */
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .links ul {
+        flex-direction: column; /* empilha os links em telas pequenas */
+        gap: 8px;
+    }
+}
+
+
+/* ================================================== */
+/*                        HERO                        */
+/* ================================================== */
+.container-hero {
+    /* 6 BOX MODEL (FROM OUTSIDE IN) */
+    width: 100%;
+    height: 525px;
+
+    /* 7 BACKGROUND */
+    background-image: url('../assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
